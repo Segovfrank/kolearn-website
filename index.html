@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Create your very own custom flashcards and challenge yourself with interactive quizzes. We help you make your learning experience fun and more effective.">
-    <meta name="keywords" content="Learnion">
+    <meta name="keywords" content="KoLearn">
     <meta name="author" content="Learnion">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Learnion - Learn, organize, practice.</title>
+    <title>KoLearn - Learn, organize, practice.</title>
     <link rel="canonical" href="https://learnion.app/" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
@@ -18,21 +18,9 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/core.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0K0QR2PZW1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-0K0QR2PZW1');
-    </script>
 </head>
 <body>
-    <div id="cockiesMsg" class="not-msg has-text-centered">
-        <p>We use cookies to enhance your experience by analyzing site traffic and interactions.</p>
-        <button id="cockiesMsgBtn" class="button is-warning shadow">Accept</button >
-    </div>
+
     <!-- Fullheight Hero -->
     <div id="landing-hero" class="hero is-fullheight animated-hero is-relative is-theme-primary has-waves-bottom">
 
@@ -161,7 +149,7 @@
                 </div>
                 <div class="column is-6 is-offset-1">
                     <figure class="image center-txt">
-                        <img class="hero-img" src="./img/home_framed.png" alt="Description">
+                        <img class="hero-img" src="./img/home_kolearn.png" alt="Description">
                     </figure>
                 </div>
                 
@@ -185,282 +173,127 @@
       <!-- End Hero caption -->
 
     </div>
-
-    <div id="tools" ></div>
-    <div class="spacer"></div>
-              <!--TABS OPEN-->
-              <div class="tab-content">
     
-                  <div class="tab-pane is-active level" id="pane-1">
-                          <div class="hero-body">
-                              <div class="container">
-                                  <div class="columns is-vcentered">
-                                    <div class="column is-4 is-offset-1 has-text-centered">
-                                        <video class="quiz-video shadow" muted autoplay loop src="./gif/all_flashcards.mp4"></video>
-                                        <br />
-                                        <p class="subtitle is-6">
-                                          <br />
-                                         <span class="learnion-brown-font">Flashcards feature</span>
-                                        </p>
-                                    </div>
-                                      <div class="column is-4 is-offset-1">
-                                        <h3 class="title is-3">
-                                          Learning your way
-                                        </h3>
-                                        <p class="has-text-justified">Organize all your flashcards under a topic and category.</p>
-                                        <br />
-                                        <h4 class="subtitle is-4">The tools</h4>
-                                        <div class="tabs is-boxed is-centered main-menu" id="nav">
-                                            <ul style="display: inline-block;">
-                                                <li class="is-active panel" data-target="pane-1" id="1">
-                                                <a>
-                                                    <span>Flashcards</span>
-                                                </a>
-                                                </li>
-                                                <li class="panel" data-target="pane-2" id="2">
-                                                  <a>
-                                                    <span>Quizes</span>
-                                                </a>
-                                                </li>
-                                                <li class="panel"  data-target="pane-3" id="3">
-                                                  <a>
-                                                    <span>Create your own topics</span>
-                                                </a>
-                                                </li>
-                                                <!---
-                                                <li class="panel"  data-target="pane-4" id="4">
-                                                  <a>
-                                                    <span>Metrics</span>
-                                                  </a>
-                                                </li>
-                                              -->
-                                            </ul>
-                                        </div>
-                                    </div>
-                                  </div>
-                              </div>
-                          </div>
-                  </div>
-      
-                  <div class="tab-pane level" id="pane-2">
-                          <div class="hero-body">
-                            <div class="container">
-                              <div class="columns is-vcentered">
-                                  <div class="column is-4 is-offset-1 has-text-centered">
-                                      <video class="quiz-video shadow" muted autoplay loop src="./gif/quiz_part.mp4"></video>
-                                      <br />
-                                      <p class="subtitle is-6">
-                                        <br />
-                                       <span class="learnion-brown-font">Quiz feature</span>
-                                      </p>
-                                  </div>
-                                  <div class="column is-4 is-offset-1">
-                                    <h3 class="title is-3">
-                                      Learning your way
-                                    </h3>
-                                    <p class="has-text-justified">Quickly generate your quizzes using your flashcards, by category or randomly.</p>
-                                    <br />
-                                    <h4 class="subtitle is-4">The tools</h4>
-                                    <div class="tabs is-boxed is-centered main-menu" id="nav">
-                                        <ul style="display: inline-block;">
-                                            <li class="is-active panel" data-target="pane-1" id="1">
-                                                <a>
-                                                  <span>Flashcards</span>
-                                                </a>
-                                            </li>
-                                            <li class="panel" data-target="pane-2" id="2">
-                                              <a>
-                                                <span>Quizes</span>
-                                            </a>
-                                            </li>
-                                            <li class="panel"  data-target="pane-3" id="3">
-                                                <a>
-                                                  <span>Create your own topics</span>
-                                            </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                              </div>
-                          </div>
-                          </div>
-                  </div>
-      
-                  <div class="tab-pane level" id="pane-3">
-                          <div class="hero-body">
-                            <div class="container">
-                              <div class="columns is-vcentered">
-                                <div class="column is-4 is-offset-1 has-text-centered">
-                                    <video class="quiz-video shadow" muted autoplay loop src="./gif/create_topic.mp4"></video>
-                                    <br />
-                                    <p class="subtitle is-6">
-                                      <br />
-                                     <span class="learnion-brown-font">Create your own topics</span>
-                                    </p>
-                                </div>
-                                  <div class="column is-4 is-offset-1">
-                                    <h3 class="title is-3">
-                                      Learning your way
-                                    </h3>
-                                    <p class="has-text-justified">Organize all your flashcards under a topic. It could be a language or whatever you are learning!</p>
-                                    <br />
-                                    <h4 class="subtitle is-4">The tools</h4>
-                                    <div class="tabs is-boxed is-centered main-menu" id="nav">
-                                        <ul style="display: inline-block;">
-                                            <li class="is-active panel" data-target="pane-1" id="1">
-                                                <a>
-                                                  <span>Flashcards</span>
-                                                </a>
-                                            </li>
-                                            <li class="panel" data-target="pane-2" id="2">
-                                              <a>
-                                                <span>Quizes</span>
-                                            </a>
-                                            </li>
-                                            <li class="panel"  data-target="pane-3" id="3">
-                                                <a>
-                                                  <span>Create your own topics</span>
-                                            </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                              </div>
-                          </div>
-                          </div>
-                  </div>
-      
-              </div>
-              <!--TABS CLOSE-->
-    <div id="process"></div>
-    <div class="spacer"></div>
-    <div class="container hero-body">
-      <h2 class="title is-1">Process</h2>
-      <div class="columns is-vcentered pt-30">
-        <div class="column is-10 is-offset-1">
-            <!-- Timeline -->
-            <div class="timeline">
-                <!-- Timeline item -->
-                <div class="timeline-item">
-                    <div class="timeline-icon g-item">
-                        <i class="fa fa-arrow-circle-down"></i>
+        <!-- Feature -->
+        <div class="section is-medium">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-6 has-text-centered">
+                        <!-- Featured illustration -->
+                        <figure class="image center-txt">
+                            <img class="hero-img" src="./img/hangeul_detection.png" alt="Description">
+                        </figure>
                     </div>
-                    <div class="timeline-content">
-                        <div class="content-body">
-                            <!--<img class="timeline-avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/carolin.png">-->
-                            <div class="timeline-text">
-                                <div style="font-weight: bold; font-size: 1.2em;">Getting Started</div>
-                                <div>Download app and complete the 1 minute onboarding</div>
-                                <span class="timestamp is-uppercase">step 1</span>
-                            </div>
+                    <!-- Content -->
+                    <div class="column is-4 is-offset-1">
+                        <h2 class="title quick-feature">
+                            <span>Hangeul Detection</span>
+                            <span class="bg-number text-bold">1</span>
+                        </h2>
+                        <div class="title-divider is-small"></div>
+                        <span class="section-feature-description">Detect hand-drawn Korean characters on your screen. Can detect, characters, words and sentences</span>
+                        <div class="pt-10 pb-10">
+                            <a href="#" class="button btn-align btn-more is-link color-red">
+                                Learn more about this <span>&nbsp</span><i class="fas fa-chevron-right"></i>
+                            </a>
                         </div>
                     </div>
-                </div>
-                <!-- Timeline item -->
-                <div class="timeline-item">
-                    <div class="timeline-icon g-item">
-                        <i class="fa fa-archive"></i>
-                    </div>
-                    <div class="timeline-content right">
-                        <div class="content-body">
-<!--<img class="timeline-avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/carolin.png">-->                            <div class="timeline-text">
-                                <div style="font-weight: bold; font-size: 1.2em;">Add your flashcards</div>
-                                <div>Create your flashcards or check the community section.</div>
-                                <span class="timestamp is-uppercase">step 2</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Timeline item -->
-                <div class="timeline-item">
-                    <div class="timeline-icon g-item">
-                        <i class="fa fa-check-circle"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="content-body">
-<!--<img class="timeline-avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/carolin.png">-->                            <div class="timeline-text">
-                                <div style="font-weight: bold; font-size: 1.2em;">Test your abilities</div>
-                                <div>Use your bundle content to crete your very own topics, flashcards, and quizzes</div>
-                                <span class="timestamp is-uppercase">step 3</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Timeline item -->
-                <div class="timeline-item">
-                    <div class="timeline-icon g-item">
-                        <i class="fa fa-chart-line"></i>
-                    </div>
-                    <div class="timeline-content right">
-                        <div class="content-body">
-<!--<img class="timeline-avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/carolin.png">-->                            <div class="timeline-text">
-                                <div style="font-weight: bold; font-size: 1.2em;">Enhance your process</div>
-                                <div>Track your results and create your own bundles.</div>
-                                <span class="timestamp is-uppercase">step 4</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Timeline item -->
-            </div>
-        </div>
-      </div>
-    </div>
-    <!--Aqui iba un spacer-->
-      <!-- Feature -->
-      <div class="section is-medium section-feature-grey">
-        <div class="container">
-            <div class="columns is-vcentered">
-                <!-- With the help of responsive modifiers, the text column is duplicated to ensure better readability both on desktop and mobile viewports -->
-                <div class="column is-4 is-offset-1 is-hidden-desktop is-hidden-tablet">
-                    <div class="icon-subtitle"><i class="fa fa-chart-pie"></i></div>
-                    <h2 class="title quick-feature">
-                        <span>Built in metrics </span>
-                    </h2>
-                    <div class="title-divider"></div>
-                    <span class="section-feature-description">Track your progress</span>
-                </div>
-
-                <div class="column is-6 has-text-centered">
-                    <!-- Featured illustration -->
-                    <img class="featured-svg levitate img-showcase" src="./img/Onboarding-1.png" data-base-url="assets/img/graphics/widgets/mini-widget-4" data-extension=".png" alt="">
-                </div>
-
-                <div class="column is-4 is-offset-1 is-hidden-mobile">
-                    <div class="icon-subtitle"><i class="far fa-smile"></i></div>
-                    <h2 class="title quick-feature">
-                      <span>3 Step Onboarding</span>
-                    </h2>
-                    <div class="title-divider is-small"></div>
-                    <span class="section-feature-description">Learn how to navigate Learnion within seconds of downloading the app</span>
+                    
                 </div>
             </div>
         </div>
-    </div>
 
-    <div id="community"></div>
     <!-- Feature -->
-    <div class="section is-medium">
-        <div class="container">
-            <div class="columns is-vcentered">
+    <div class="section section-feature-grey">
 
-                <div class="column is-4 is-offset-2">
-                    <div class="icon-subtitle"><i class="far fa-user"></i></div>
+        <div class="container">
+
+            <!-- Feature -->
+            <div class="columns is-vcentered">
+                <!-- Content -->
+                <div class="column is-5 is-offset-2">
                     <h2 class="title quick-feature">
-                        <span>Access to the community</span>
+                        <span>Create and organize flashcards</span>
+                        <span class="bg-number text-bold">2</span>
                     </h2>
                     <div class="title-divider is-small"></div>
-                    <span class="section-feature-description">Create and share with others flashcard packages. Help everyone</span>
-
+                    <span class="section-feature-description">Create custom flashcards or add from premade packages. Organize by categories or decks</span>
+                    <div class="pt-10 pb-10">
+                        <a href="#" class="button btn-align btn-more is-link color-red">
+                            Learn more about this <span>&nbsp</span><i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="column is-6 has-text-centered">
-                    <!-- Featured illustration -->
-                    <img class="featured-svg levitate img-showcase" src="./img/learnion_community.png" data-base-url="assets/img/graphics/widgets/widget-13" data-extension=".png" alt="">
+                <figure class="image center-txt">
+                    <img class="hero-img" src="./img/device_all_flashcards.png" alt="Description">
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+ <!-- Learn more -->
+ <div class="section is-medium is-relative">
+    <div class="container has-text-centered">
+        <div class="columns is-vcentered">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <!-- Title -->
+                <div class="section-title-wrapper has-text-centered">
+                    <div class="bg-number">3</div>
+                    <h2 class="section-title-landing">
+                        More features!
+                    </h2>
+                    <h4>KoLearn has multiple features to enhance your Korean learning experience</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="columns is-vcentered">
+                <div class="column is-4">
+                    <!-- Side icon box -->
+                    <div class="content-flex">
+                        <div class="dark-text">
+                            <i class="fas fa-chalkboard is-size-2 color-secondary"></i>
+                        </div>
+                        <div class="dark-text has-text-left ml-30">
+                            <div class="primary-text text-bold">Customizable quizzes</div>
+                            <p class="body-color">Create quizzes with your own flashcards, by category or random. You can also prioritize those tricky words!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <!-- Side icon box -->
+                    <div class="content-flex">
+                        <div class="dark-text">
+                            <i class="far fa-check-circle is-size-2 color-secondary"></i>
+                        </div>
+                        <div class="dark-text has-text-left ml-30">
+                            <div class="primary-text text-bold">Simple Korean Lessons</div>
+                            <p class="body-color">Simple and easy-to-digest korean lessons including practice quizzes and vocabulary. Learn Hangeul and korean grammar!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <!-- Side icon box -->
+                    <div class="content-flex">
+                        <div class="dark-text">
+                            <i class="far fa-chart-bar is-size-2 color-secondary"></i>
+                        </div>
+                        <div class="dark-text has-text-left ml-30">
+                            <div class="primary-text text-bold">Track your progress</div>
+                            <p class="body-color">Watch your activity and examine what you have studied and what you need to study more.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    <div class="spacer"></div>
+
           <!-- Side dark footer -->
     <footer class="footer-light-medium">
         <div class="container">
@@ -470,7 +303,7 @@
                     <div class="pt-10 pb-10">
                         <img class="small-footer-logo" src="assets/img/logos/bulkit-logo-g.png" alt="">
                         <div class="footer-description">
-                            Learnion is built to help you learn any topic by using flashcards. Happy learning!
+                            KoLearn is built to help you learn korean. Happy learning!
                         </div>
                     </div>
                     <div>
@@ -488,7 +321,7 @@
                         <div class="column">
                             <ul class="footer-column">
                                 <li class="column-header">
-                                    Learnion
+                                    KoLearn
                                 </li>
                                 <li class="column-item"><a href="#tools">Tools</a></li>
                                 <li class="column-item"><a href="#process">The process</a></li>
@@ -524,7 +357,7 @@
                 </div>
             </div>
             <div class="footer-copyright has-text-centered">
-                <p>&copy; 2019-<span id="currentYear"></span> | <a href="https://play.google.com/store/apps/details?id=com.learnion.learnion&hl=en&gl=US">Learnion App</a> | All Rights Reserved.</p>
+                <p>&copy; 2019-<span id="currentYear"></span> | <a href="https://play.google.com/store/apps/details?id=com.learnion.learnion&hl=en&gl=US">KoLearn App</a> | All Rights Reserved.</p>
             </div>
         </div>
     </footer>

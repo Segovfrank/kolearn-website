@@ -34916,13 +34916,13 @@ figure.team-slanted:hover .member-position {
   color: #FFCC5C !important;
 } /* line 33, src/assets/scss/layout/_helpers.scss */
 .color-secondary {
-  color: #FFCC5C !important;
+  color: #464141 !important;
 } /* line 37, src/assets/scss/layout/_helpers.scss */
 .color-accent {
-  color: #ad5cff !important;
+  color: #96CEB4 !important;
 } /* line 41, src/assets/scss/layout/_helpers.scss */
 .color-red {
-  color: #f92b60 !important;
+  color: #FF6F69 !important;
 } /* line 45, src/assets/scss/layout/_helpers.scss */
 .border-light {
   border-color: #fff !important;
