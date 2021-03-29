@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Create your very own custom flashcards and challenge yourself with interactive quizzes. We help you make your learning experience fun and more effective.">
+    <meta name="keywords" content="Learnion">
+    <meta name="author" content="Learnion">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learnion - Learn, organize, practice.</title>
+    <link rel="canonical" href="https://learnion.app/" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="css/bulma.css">-->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/core.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0K0QR2PZW1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0K0QR2PZW1');
+    </script>
+</head>
+<body>
+    <div id="cockiesMsg" class="not-msg has-text-centered">
+        <p>We use cookies to enhance your experience by analyzing site traffic and interactions.</p>
+        <button id="cockiesMsgBtn" class="button is-warning shadow">Accept</button >
+    </div>
+    <!-- Fullheight Hero -->
+    <div id="landing-hero" class="hero is-fullheight animated-hero is-relative is-theme-primary has-waves-bottom">
+
+        <nav class="navbar navbar-wrapper is-cloned">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index">
+                        <img class="switcher-logo" src="img/logo.svg" alt="">
+                    </a>
+
+                    <!-- Responsive toggle -->
+                    <div class="custom-burger" data-target="">
+                        <a id="" class="responsive-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">
+                                    <span class="icon-box-toggle">
+                                        <span class="rotate">
+                                            <i class="icon-line-top"></i>
+                                            <i class="icon-line-center"></i>
+                                            <i class="icon-line-bottom"></i>
+                                        </span>
+                            </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- /Responsive toggle -->
+                </div>
+
+                <!-- Navbar menu -->
+                <div class="navbar-menu">
+                    <!-- Navbar Start -->
+                    <div class="navbar-start">
+
+                    </div>
+
+                    <!-- Navbar end -->
+                    <div class="navbar-end">
+                        <!-- Navbar item -->
+                        <a class="navbar-item is-slide" href="#tools">
+                            The tools
+                        </a>
+                        <!-- Navbar item -->
+                        <a class="navbar-item is-slide" href="#process">
+                            Getting started
+                        </a>
+                        <a class="navbar-item is-slide" href="#community">
+                            Community
+                        </a>
+                        <!-- Signup button -->
+                        <div class="navbar-item">
+                            <a id="signup-btn" href="https://play.google.com/store/apps/details?id=com.learnion.learnion&hl=en&gl=US" class="button button-cta btn-outlined is-bold btn-align secondary-btn rounded raised">
+                                <i class="fab fa-google-play"></i>  &nbsp; Download App
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-wrapper is-transparent is-static">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index">
+                        <img class="switcher-logo" src="img/logo.svg" alt="">
+                    </a>
+
+                    <!-- Responsive toggle -->
+                    <div class="custom-burger" data-target="">
+                        <a id="" class="responsive-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">
+                                    <span class="icon-box-toggle">
+                                        <span class="rotate">
+                                            <i class="icon-line-top"></i>
+                                            <i class="icon-line-center"></i>
+                                            <i class="icon-line-bottom"></i>
+                                        </span>
+                            </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- /Responsive toggle -->
+                </div>
+
+                <!-- Navbar menu -->
+                <div class="navbar-menu">
+                    <!-- Navbar Start -->
+                    <div class="navbar-start">
+
+                    </div>
+
+                    <!-- Navbar end -->
+                    <div class="navbar-end">
+                        <!-- Navbar item -->
+                        <a class="navbar-item is-slide" href="#tools">
+                            The tools
+                        </a>
+                        <!-- Navbar item -->
+                        <a class="navbar-item is-slide" href="#process">
+                            Getting started
+                        </a>
+                        <a class="navbar-item is-slide" href="#community">
+                            Community
+                        </a>
+                        <!-- Signup button -->
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero caption -->
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-5">
+                    <h1 class="title is-1 hero-title">
+                      Your learning companion
+                    </h1>
+                    <br />
+                    <h2 class="subtitle is-4 hero-copy">
+                        Have all your vocabulary in one place and maximize your learning process
+                    </h2>
+                            <a id="signup-btn" href="https://play.google.com/store/apps/details?id=com.learnion.learnion&hl=en&gl=US" class="button button-cta btn-outlined is-bold btn-align secondary-btn rounded raised">
+                                <i class="fab fa-google-play"></i>  &nbsp; Download App
+                            </a>
+                </div>
+                <div class="column is-6 is-offset-1">
+                    <figure class="image center-txt">
+                        <img class="hero-img" src="./img/home_framed.png" alt="Description">
+                    </figure>
+                </div>
+                
+            </div>
+            
+            
+            
+        </div>
+      </div>
+      <div class="wave-container">
+        <div class="line line-1">
+            <div class="wave wave1" style="background-image: url(img/1.png)"></div>
+        </div>
+        <div class="line line-2">
+            <div class="wave wave2" style="background-image: url(img/2.png)"></div>
+        </div>
+        <div class="line line-3">
+            <div class="wave wave3" style="background-image: url(img/3.png)"></div>
+        </div>
+    </div>
+      <!-- End Hero caption -->
+
+    </div>
+
+    <div id="tools" ></div>
+    <div class="spacer"></div>
+              <!--TABS OPEN-->
+              <div class="tab-content">
+    
+                  <div class="tab-pane is-active level" id="pane-1">
+                          <div class="hero-body">
+                              <div class="container">
+                                  <div class="columns is-vcentered">
+                                    <div class="column is-4 is-offset-1 has-text-centered">
+                                        <video class="quiz-video shadow" muted autoplay loop src="./gif/all_flashcards.mp4"></video>
+                                        <br />
+                                        <p class="subtitle is-6">
+                                          <br />
+                                         <span class="learnion-brown-font">Flashcards feature</span>
+                                        </p>
+                                    </div>
+                                      <div class="column is-4 is-offset-1">
+                                        <h3 class="title is-3">
+                                          Learning your way
+                                        </h3>
+                                        <p class="has-text-justified">Organize all your flashcards under a topic and category.</p>
+                                        <br />
+                                        <h4 class="subtitle is-4">The tools</h4>
+                                        <div class="tabs is-boxed is-centered main-menu" id="nav">
+                                            <ul style="display: inline-block;">
+                                                <li class="is-active panel" data-target="pane-1" id="1">
+                                                <a>
+                                                    <span>Flashcards</span>
+                                                </a>
+                                                </li>
+                                                <li class="panel" data-target="pane-2" id="2">
+                                                  <a>
+                                                    <span>Quizes</span>
+                                                </a>
+                                                </li>
+                                                <li class="panel"  data-target="pane-3" id="3">
+                                                  <a>
+                                                    <span>Create your own topics</span>
+                                                </a>
+                                                </li>
+                                                <!---
+                                                <li class="panel"  data-target="pane-4" id="4">
+                                                  <a>
+                                                    <span>Metrics</span>
+                                                  </a>
+                                                </li>
+                                              -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                  </div>
+      
+                  <div class="tab-pane level" id="pane-2">
+                          <div class="hero-body">
+                            <div class="container">
+                              <div class="columns is-vcentered">
+                                  <div class="column is-4 is-offset-1 has-text-centered">
+                                      <video class="quiz-video shadow" muted autoplay loop src="./gif/quiz_part.mp4"></video>
+                                      <br />
+                                      <p class="subtitle is-6">
+                                        <br />
+                                       <span class="learnion-brown-font">Quiz feature</span>
+                                      </p>
+                                  </div>
+                                  <div class="column is-4 is-offset-1">
+                                    <h3 class="title is-3">
+                                      Learning your way
+                                    </h3>
+                                    <p class="has-text-justified">Quickly generate your quizzes using your flashcards, by category or randomly.</p>
+                                    <br />
+                                    <h4 class="subtitle is-4">The tools</h4>
+                                    <div class="tabs is-boxed is-centered main-menu" id="nav">
+                                        <ul style="display: inline-block;">
+                                            <li class="is-active panel" data-target="pane-1" id="1">
+                                                <a>
+                                                  <span>Flashcards</span>
+                                                </a>
+                                            </li>
+                                            <li class="panel" data-target="pane-2" id="2">
+                                              <a>
+                                                <span>Quizes</span>
+                                            </a>
+                                            </li>
+                                            <li class="panel"  data-target="pane-3" id="3">
+                                                <a>
+                                                  <span>Create your own topics</span>
+                                            </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                          </div>
+                  </div>
+      
+                  <div class="tab-pane level" id="pane-3">
+                          <div class="hero-body">
+                            <div class="container">
+                              <div class="columns is-vcentered">
+                                <div class="column is-4 is-offset-1 has-text-centered">
+                                    <video class="quiz-video shadow" muted autoplay loop src="./gif/create_topic.mp4"></video>
+                                    <br />
+                                    <p class="subtitle is-6">
+                                      <br />
+                                     <span class="learnion-brown-font">Create your own topics</span>
+                                    </p>
+                                </div>
+                                  <div class="column is-4 is-offset-1">
+                                    <h3 class="title is-3">
+                                      Learning your way
+                                    </h3>
+                                    <p class="has-text-justified">Organize all your flashcards under a topic. It could be a language or whatever you are learning!</p>
+                                    <br />
+                                    <h4 class="subtitle is-4">The tools</h4>
+                                    <div class="tabs is-boxed is-centered main-menu" id="nav">
+                                        <ul style="display: inline-block;">
+                                            <li class="is-active panel" data-target="pane-1" id="1">
+                                                <a>
+                                                  <span>Flashcards</span>
+                                                </a>
+                                            </li>
+                                            <li class="panel" data-target="pane-2" id="2">
+                                              <a>
+                                                <span>Quizes</span>
+                                            </a>
+                                            </li>
+                                            <li class="panel"  data-target="pane-3" id="3">
+                                                <a>
+                                                  <span>Create your own topics</span>
+                                            </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                          </div>
+                  </div>
+      
+              </div>
+              <!--TABS CLOSE-->
+    <div id="process"></div>
+    <div class="spacer"></div>
+    <div class="container hero-body">
+      <h2 class="title is-1">Process</h2>
+      <div class="columns is-vcentered pt-30">
+        <div class="column is-10 is-offset-1">
+            <!-- Timeline -->
+            <div class="timeline">
+                <!-- Timeline item -->
+                <div class="timeline-item">
+                    <div class="timeline-icon g-item">
+                        <i class="fa fa-arrow-circle-down"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="content-body">
+                            <!--<img class="timeline-avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/carolin.png">-->
+                            <div class="timeline-text">
+                                <div style="font-weight: bold; font-size: 1.2em;">Getting Started</div>
+                                <div>Download app and complete the 1 minute onboarding</div>
+                                <span class="timestamp is-uppercase">step 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Timeline item -->
+                <div class="timeline-item">
+                    <div class="timeline-icon g-item">
+                        <i class="fa fa-archive"></i>
+                    </div>
+                    <div class="timeline-content right">
+                        <div class="content-body">
+<!--<img class="timeline-avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/carolin.png">-->                            <div class="timeline-text">
+                                <div style="font-weight: bold; font-size: 1.2em;">Add your flashcards</div>
+                                <div>Create your flashcards or check the community section.</div>
+                                <span class="timestamp is-uppercase">step 2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Timeline item -->
+                <div class="timeline-item">
+                    <div class="timeline-icon g-item">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="content-body">
+<!--<img class="timeline-avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/carolin.png">-->                            <div class="timeline-text">
+                                <div style="font-weight: bold; font-size: 1.2em;">Test your abilities</div>
+                                <div>Use your bundle content to crete your very own topics, flashcards, and quizzes</div>
+                                <span class="timestamp is-uppercase">step 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Timeline item -->
+                <div class="timeline-item">
+                    <div class="timeline-icon g-item">
+                        <i class="fa fa-chart-line"></i>
+                    </div>
+                    <div class="timeline-content right">
+                        <div class="content-body">
+<!--<img class="timeline-avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/carolin.png">-->                            <div class="timeline-text">
+                                <div style="font-weight: bold; font-size: 1.2em;">Enhance your process</div>
+                                <div>Track your results and create your own bundles.</div>
+                                <span class="timestamp is-uppercase">step 4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Timeline item -->
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--Aqui iba un spacer-->
+      <!-- Feature -->
+      <div class="section is-medium section-feature-grey">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <!-- With the help of responsive modifiers, the text column is duplicated to ensure better readability both on desktop and mobile viewports -->
+                <div class="column is-4 is-offset-1 is-hidden-desktop is-hidden-tablet">
+                    <div class="icon-subtitle"><i class="fa fa-chart-pie"></i></div>
+                    <h2 class="title quick-feature">
+                        <span>Built in metrics </span>
+                    </h2>
+                    <div class="title-divider"></div>
+                    <span class="section-feature-description">Track your progress</span>
+                </div>
+
+                <div class="column is-6 has-text-centered">
+                    <!-- Featured illustration -->
+                    <img class="featured-svg levitate img-showcase" src="./img/Onboarding-1.png" data-base-url="assets/img/graphics/widgets/mini-widget-4" data-extension=".png" alt="">
+                </div>
+
+                <div class="column is-4 is-offset-1 is-hidden-mobile">
+                    <div class="icon-subtitle"><i class="far fa-smile"></i></div>
+                    <h2 class="title quick-feature">
+                      <span>3 Step Onboarding</span>
+                    </h2>
+                    <div class="title-divider is-small"></div>
+                    <span class="section-feature-description">Learn how to navigate Learnion within seconds of downloading the app</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="community"></div>
+    <!-- Feature -->
+    <div class="section is-medium">
+        <div class="container">
+            <div class="columns is-vcentered">
+
+                <div class="column is-4 is-offset-2">
+                    <div class="icon-subtitle"><i class="far fa-user"></i></div>
+                    <h2 class="title quick-feature">
+                        <span>Access to the community</span>
+                    </h2>
+                    <div class="title-divider is-small"></div>
+                    <span class="section-feature-description">Create and share with others flashcard packages. Help everyone</span>
+
+                </div>
+
+                <div class="column is-6 has-text-centered">
+                    <!-- Featured illustration -->
+                    <img class="featured-svg levitate img-showcase" src="./img/learnion_community.png" data-base-url="assets/img/graphics/widgets/widget-13" data-extension=".png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+          <!-- Side dark footer -->
+    <footer class="footer-light-medium">
+        <div class="container">
+            <div class="columns footer-body">
+                <!-- Column -->
+                <div class="column is-4">
+                    <div class="pt-10 pb-10">
+                        <img class="small-footer-logo" src="assets/img/logos/bulkit-logo-g.png" alt="">
+                        <div class="footer-description">
+                            Learnion is built to help you learn any topic by using flashcards. Happy learning!
+                        </div>
+                    </div>
+                    <div>
+                        <div class="social-links">
+                            <a href="https://twitter.com/learnion">
+                                <span class="icon"><i class="fab fa-twitter"></i></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="column is-6 is-offset-2">
+                    <div class="columns">
+                        <!-- Column -->
+                        <div class="column">
+                            <ul class="footer-column">
+                                <li class="column-header">
+                                    Learnion
+                                </li>
+                                <li class="column-item"><a href="#tools">Tools</a></li>
+                                <li class="column-item"><a href="#process">The process</a></li>
+                                <li class="column-item"><a href="#community">Community</a></li>
+                            </ul>
+                        </div>
+                        <!-- Column -->
+                        <!---
+                        <div class="column">
+                            <ul class="footer-column">
+                                <li class="column-header">
+                                    Ressources
+                                </li>
+                                <li class="column-item"><a href="#">Learning</a></li>
+                                <li class="column-item"><a href="#">Support center</a></li>
+                                <li class="column-item"><a href="#">Frequent questions</a></li>
+                                <li class="column-item"><a href="#">Schedule a demo</a></li>
+                            </ul>
+                        </div>
+                        --->
+                        <!-- Column -->
+                        <div class="column">
+                            <ul class="footer-column">
+                                <li class="column-header">
+                                    Terms
+                                </li>
+                                <li class="column-item"><a href="/terms">Terms of Service</a></li>
+                                <li class="column-item"><a href="/privacy">Privacy policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright has-text-centered">
+                <p>&copy; 2019-<span id="currentYear"></span> | <a href="https://play.google.com/store/apps/details?id=com.learnion.learnion&hl=en&gl=US">Learnion App</a> | All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var currentDate = new Date();
+        var theYear = currentDate.getFullYear();
+        document.getElementById("currentYear").innerHTML = theYear;
+    </script>
+
+    <script src="js/tabs.js"></script>
+    <script src="js/bulma.js"></script>
+    <script src="js/validate.js"></script>
+    <!-- /Side navigation -->
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div> <!-- Concatenated jQuery and plugins -->
+    <script src="js/app.js"></script>
+
+    <!-- Bulkit js -->
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
