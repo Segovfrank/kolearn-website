@@ -20331,19 +20331,19 @@ body.is-theme-red .hero.is-wavy-bg:before {
   transform: rotate(180deg);
 } /* line 332, src/assets/scss/pages/_hero-elements.scss */
 .waves-primary .animated-waves .parallax > use:first-child {
-  fill: rgba(140, 140, 249, 0.7) !important;
+  fill: rgba(70, 65, 65, 0.3) !important;
 } /* line 336, src/assets/scss/pages/_hero-elements.scss */
 .waves-primary .animated-waves .parallax > use:nth-child(2) {
-  fill: rgba(140, 140, 249, 0.5) !important;
+  fill: rgba(70, 65, 65, 0.2) !important;
 } /* line 340, src/assets/scss/pages/_hero-elements.scss */
 .waves-primary .animated-waves .parallax > use:nth-child(3) {
-  fill: rgba(140, 140, 249, 0.3) !important;
+  fill: rgba(70, 65, 65, 0.1) !important;
 } /* line 344, src/assets/scss/pages/_hero-elements.scss */
 .waves-primary .animated-waves .parallax > use:nth-child(4) {
-  fill: #FFCC5C !important;
+  fill: rgba(70, 65, 65, 0.2) !important;
 } /* line 348, src/assets/scss/pages/_hero-elements.scss */
 .waves-primary .animated-waves .parallax > use:last-child {
-  fill: rgba(140, 140, 249, 0.7) !important;
+  fill: rgba(70, 65, 65, 0.2) !important;
 } /* line 356, src/assets/scss/pages/_hero-elements.scss */
 .animated-waves .waves {
   position: relative;
@@ -34940,7 +34940,7 @@ figure.team-slanted:hover .member-position {
   color: #FFCC5C !important;
 } /* line 65, src/assets/scss/layout/_helpers.scss */
 .secondary-text {
-  color: #FFCC5C !important;
+  color: #464141 !important;
 } /* line 69, src/assets/scss/layout/_helpers.scss */
 .accent-text {
   color: #ad5cff !important;

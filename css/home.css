@@ -50,6 +50,13 @@ html {
   display: inline-block !important;
 }
 
+
+.feature-img {
+  height: 580px !important;
+  width: auto !important;
+  display: inline-block !important;
+}
+
 .feature-list li {
   cursor: pointer;
 }
@@ -157,6 +164,10 @@ html {
 
 .title-divider {
   background: #464141 !important;
+}
+
+.accent-background {
+  background: #96CEB4 !important;
 }
 
 .button.primary-btn {
