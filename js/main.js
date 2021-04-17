@@ -20,9 +20,9 @@ $(document).ready(function ($) {
     changeDemoImages();
   }
 
-  initThemeSwitcher();
-  initSlider();
-  initBackgroundImages(); //Layout functions
+  //initThemeSwitcher();
+  //initSlider();
+  //initBackgroundImages(); //Layout functions
 
   initNavbar();
   initLandingNavbar();
@@ -30,93 +30,93 @@ $(document).ready(function ($) {
   initLandingMobileMenu();
   initNavbarDropdown();
   initSidebar();
-  feather.replace(); //Tabs
+  //feather.replace(); //Tabs
 
   initTabsNav();
   initNavigationTabs();
-  initVerticalTabs(); //Cards
+  //initVerticalTabs(); //Cards
 
-  initMediaCards();
-  initTiltCards(); //Form controls
+  //initMediaCards();
+  //initTiltCards(); //Form controls
 
-  initDatepicker();
-  initTimepicker();
-  initDatepickerAlt();
-  initChosenSelects();
-  initMaterialSelect();
-  initAutocompletes();
-  initFileInputs();
-  initRangeInput();
-  initRangeInputs();
-  initJqueryTagInput();
-  initBulmaTags();
-  initBulmaSteps();
-  initBulmaIconpicker();
-  initBulmaCalendar();
-  initComboBox();
-  initImageComboBox();
-  initStackedComboBox(); //4. Popups
+  //initDatepicker();
+  //initTimepicker();
+  //initDatepickerAlt();
+  //initChosenSelects();
+  //initMaterialSelect();
+  //initAutocompletes();
+  //initFileInputs();
+  //initRangeInput();
+  //initRangeInputs();
+  //initJqueryTagInput();
+  //initBulmaTags();
+  //initBulmaSteps();
+  //initBulmaIconpicker();
+  //initBulmaCalendar();
+  //initComboBox();
+  //initImageComboBox();
+  //initStackedComboBox(); //4. Popups
 
-  initPopovers();
-  initTooltips();
-  initModals(); //5. Carousels
+  //initPopovers();
+  //initTooltips();
+  //initModals(); //5. Carousels
 
-  initBasicCarousel();
-  initVerticalCarousel();
-  initFlatCarousel();
-  initImageCarousel();
-  initSingleImageCarousel();
-  initMultipleImagesCarousel(); //6. Video
+  //initBasicCarousel();
+  //initVerticalCarousel();
+  //initFlatCarousel();
+  //initImageCarousel();
+  //initSingleImageCarousel();
+  //initMultipleImagesCarousel(); //6. Video
 
-  initVideoEmbed();
-  initBackgroundVideo();
-  initPlayers(); //7. Counters
+  //initVideoEmbed();
+  //initBackgroundVideo();
+  //initPlayers(); //7. Counters
 
-  initCounters(); //8. Accordions
+  //initCounters(); //8. Accordions
 
-  initSimpleAccordion();
-  initAccordions(); //9. File uploader
+  //initSimpleAccordion();
+  //initAccordions(); //9. File uploader
 
-  initFileUploader(); //10. Toasts
+  //initFileUploader(); //10. Toasts
 
-  initToasts(); //11. Demo
+  //initToasts(); //11. Demo
 
-  initDemo();
-  initScrollspyNav();
-  initParallax();
+  //initDemo();
+ // initScrollspyNav();
+  //initParallax();
   initBackToTop(); //12. Utility functions
 
-  initGitem();
+  //initGitem();
   initAnchorScroll();
-  initQuickview();
+  //initQuickview();
   initScrollReveal(); //13. Landing pages functions
 
-  initMockup();
-  initClientsCarousel();
-  initPeopleCarousel();
-  initCustomCarousel();
-  initCarousel();
-  initLandingCarousel();
-  initTestimonials();
-  initCharacterTestimonials();
-  initPricing();
-  initPricingCarousel();
-  initTabbedPricing();
-  initFreelancerPricing();
-  initSwitchPricing();
-  initBoxedPricing();
-  initOnePagePricing();
+  //initMockup();
+  //initClientsCarousel();
+  //initPeopleCarousel();
+  //initCustomCarousel();
+  //initCarousel();
+  //initLandingCarousel();
+  //initTestimonials();
+  //initCharacterTestimonials();
+  //initPricing();
+  //initPricingCarousel();
+  //initTabbedPricing();
+  //initFreelancerPricing();
+  //initSwitchPricing();
+  //initBoxedPricing();
+  //initOnePagePricing();
   initBlog();
-  initSearchBox();
+  //initSearchBox();
   initNavigationDots();
-  initFaq();
-  initAuth();
-  initAnimations();
-  initCanvas();
-  initParticles();
-  initAnimatedSvg();
-  initChatWidget();
-  initContactToggler();
-  initMapBox();
-  initCodeTabs();
+  //initFaq();
+  //initAuth();
+  //initAnimations();
+  //initCanvas();
+  //initParticles();
+  //initAnimatedSvg();
+  //initChatWidget();
+  //initContactToggler();
+  //initMapBox();
+  //initCodeTabs();
 });
