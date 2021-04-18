@@ -9,37 +9,47 @@
 
 <url>
   <loc>https://kolearn.learnion.app/</loc>
-  <lastmod>2021-04-10T23:11:44+00:00</lastmod>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://kolearn.learnion.app/index</loc>
-  <lastmod>2021-04-10T23:11:44+00:00</lastmod>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kolearn.learnion.app/features</loc>
-  <lastmod>2021-04-10T23:11:44+00:00</lastmod>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kolearn.learnion.app/blog</loc>
-  <lastmod>2021-04-10T23:11:44+00:00</lastmod>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kolearn.learnion.app/index_es</loc>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kolearn.learnion.app/terms</loc>
-  <lastmod>2021-04-10T23:11:44+00:00</lastmod>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kolearn.learnion.app/privacy</loc>
-  <lastmod>2021-04-10T23:11:44+00:00</lastmod>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://kolearn.learnion.app/50_common_korean_words</loc>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://kolearn.learnion.app/install_korean_keyboard</loc>
-  <lastmod>2021-04-10T23:11:44+00:00</lastmod>
+  <lastmod>2021-04-18T17:27:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
