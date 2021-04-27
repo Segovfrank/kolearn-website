@@ -3,18 +3,21 @@
         "title": "Bojagi: Korean Traditional Wrap Cloth",
         "description": "Short article about bojagi tradition.",
         "date": "26/04/2021",
+        "url": "https://kolearn.learnion.app/bojagi_korean_traditional_cloth",
         "thumbnail": "https://kolearn.learnion.app/img/blog/bojagi/jogakbo.jpeg"
     },
     {
         "title": "50 common korean verbs",
         "description": "Useful to start up your korean vocabulary",
         "date": "17/04/2021",
+        "url": "https://kolearn.learnion.app/50_common_korean_words",
         "thumbnail": "https://kolearn.learnion.app/img/blog/50_common_verbs/50_common_verbs.png"
     },
     {
         "title": "How to install korean keyboard on Android",
         "description": "Follow these simple steps to get the Korean keyboard on your android device",
         "date": "02/04/2021",
+        "url": "https://kolearn.learnion.app/install_korean_keyboard",
         "thumbnail": "https://kolearn.learnion.app/img/korean_keyboard_thumbnail.png"
     }
 ]
